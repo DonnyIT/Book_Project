@@ -51,15 +51,15 @@ ____
 4. Для POST та PUT запитів вкажіть тіло запиту у форматі JSON.
 
 ## Маршрути API
-1. Отримати всі книги
+1. **Отримати всі книги**
   ```bash
     GET /api/books
   ```
-2. Отримати книгу за ID
+2. **Отримати книгу за ID**
   ```bash
     GET /api/books/search/{id}
   ```
-3. Пошук книги за назвою
+3. **Пошук книги за назвою**
   ```bash
     GET /api/books/search/title/{title}
   ```
@@ -67,16 +67,16 @@ ____
   ```bash
     GET /api/books/search/title/The Hobbit
   ```
-4. Пошук книги за автором
+4. **Пошук книги за автором**
   ```bash
     GET /api/books/search/author/{author}
   ```
-***Приклад:
+***Приклад***:
   ```bash
     GET /api/books/search/author/J.R.R. Tolkien
   ```
 
-5. Пошук книги за роком
+5. **Пошук книги за роком**
   ```bash
     GET /api/books/search/year/{year}
   ```
@@ -84,11 +84,11 @@ ____
   ```bash
     GET /api/books/search/year/1937
   ```
-6. Додавання нової книги
+6. **Додавання нової книги**
   ```bash
   POST /api/books/
   ```
-***Тіло запиту (у форматі JSON):
+***Тіло запиту (у форматі JSON):***
   ```json
   {
     "title": "New Book",
@@ -96,11 +96,11 @@ ____
     "year": 2024
   }
   ```
-7. Оновлення книги
+7. **Оновлення книги**
   ```bash
     PUT /api/books/{id}
   ```
-***Тіло запиту (у форматі JSON):
+***Тіло запиту (у форматі JSON):***
   ```json
   {
     "title": "Updated Book",
@@ -108,14 +108,14 @@ ____
     "year": 2025
   }
   ```
-8. Видалення книги
+8. **Видалення книги**
   ```bash
     DELETE /api/books/{id}
   ```
 ___
 ## Логування
 ### API використовує систему логування для відстеження основних операцій, таких як додавання, оновлення та видалення книг. Логи записуються за допомогою сервісу ILogger.
-** Приклад логів:
+**Приклад логів:**
   ```plaintext
   info: Book_Project.Controllers.BooksController[0]
         Fetching all books
