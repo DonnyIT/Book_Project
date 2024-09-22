@@ -63,7 +63,7 @@ ____
   ```bash
     GET /api/books/search/title/{title}
   ```
-***Приклад:
+***Приклад:***
   ```bash
     GET /api/books/search/title/The Hobbit
   ```
@@ -80,7 +80,7 @@ ____
   ```bash
     GET /api/books/search/year/{year}
   ```
-***Приклад:
+***Приклад:***
   ```bash
     GET /api/books/search/year/1937
   ```
