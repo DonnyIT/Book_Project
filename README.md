@@ -36,7 +36,7 @@ ____
 2. Встановіть залежності та збудуйте проект:
    ```bash
    dotnet restore
-   dotnet build`
+   dotnet build
 3. Запустіть проект:
    ```bash
    dotnet run
